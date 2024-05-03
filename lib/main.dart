@@ -28,6 +28,7 @@ class _PriceScreenState extends State<PriceScreen> {
 
   @override
   Widget build(BuildContext context) {
+    _atualizarBitcoin();
     return Scaffold(
       backgroundColor: Color(0xffffffff),
       body: Container(
